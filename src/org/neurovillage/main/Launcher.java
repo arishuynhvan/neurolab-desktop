@@ -440,7 +440,6 @@ public class Launcher extends JFrame
 							}
 								
 							btLaunchVisualization.setEnabled(false);
-							Launcher.this.setVisible(false);
 
 
 						} catch (Exception e)
