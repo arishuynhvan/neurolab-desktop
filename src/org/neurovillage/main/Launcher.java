@@ -219,8 +219,6 @@ public class Launcher extends JFrame
 								ngvis.getGameFrame().setVisible(true);
 							nfbGraph.init();
 							btLaunchVisualization.setEnabled(false);
-
-
 						}
 						catch (Exception e)
 						{
@@ -291,8 +289,6 @@ public class Launcher extends JFrame
 						
 						btLaunchVisualization.setEnabled(false);
 						Launcher.this.setVisible(false);
-
-
 					}
 				};
 				Launcher.this.setVisible(false);
@@ -362,9 +358,7 @@ public class Launcher extends JFrame
 							}
 								
 							btLaunchVisualization.setEnabled(false);
-
-
-
+                                                        btLaunchOSC.setEnabled(false);
 						} catch (Exception e)
 						{
 							e.printStackTrace();
@@ -438,8 +432,7 @@ public class Launcher extends JFrame
 							}
 								
 							btLaunchVisualization.setEnabled(false);
-
-
+                                                        btLaunchSerial.setEnabled(false);
 						} catch (Exception e)
 						{
 							e.printStackTrace();
