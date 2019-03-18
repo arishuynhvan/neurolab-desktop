@@ -219,7 +219,6 @@ public class Launcher extends JFrame
 								ngvis.getGameFrame().setVisible(true);
 							nfbGraph.init();
 							btLaunchVisualization.setEnabled(false);
-							Launcher.this.setVisible(false);
 
 
 						}
