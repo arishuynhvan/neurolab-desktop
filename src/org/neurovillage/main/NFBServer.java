@@ -110,7 +110,7 @@ public class NFBServer extends BCISettings implements DataReceiver {
 	boolean[] notBrainwaves = { false, false, false, false };
 
 	// public static String playbackFile = "ABSPATH:/root/1111noisekirimbi";
-	public static String playbackFile = "k24bit2.csv";// fileoutput1457537281935.csv
+	public static String playbackFile = "./k24bit.csv";// fileoutput1457537281935.csv
 
 	// private FakeLock lock = new FakeLock();
 	private static ReentrantLock lock = new ReentrantLock();
